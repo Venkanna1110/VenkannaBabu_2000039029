@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "VenkannaBabu2000039029": {
+    "Space": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/venkanna-babu2000039029",
+            "outputPath": "dist/space",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "VenkannaBabu2000039029:build:production"
+              "browserTarget": "Space:build:production"
             },
             "development": {
-              "browserTarget": "VenkannaBabu2000039029:build:development"
+              "browserTarget": "Space:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "VenkannaBabu2000039029:build"
+            "browserTarget": "Space:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9cb03322-1dd5-4faa-b7fa-546c82f54174"
   }
 }
